@@ -23,7 +23,9 @@
                     <div class="carousel-caption">
                         <h1 class="display-2">Moderators</h1>
                         <h3>Nuclear Reactors: Cooling Systems</h3>
+                        <a href="mods.php">
                         <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -31,7 +33,9 @@
                     <div class="carousel-caption">
                         <h1 class="display-2">Designs</h1>
                         <h3>Nuclear Power: Global Nuclear Energy Trends</h3>
+                        <a href="designs.php">
                         <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -39,7 +43,9 @@
                     <div class="carousel-caption">
                         <h1 class="display-2">History</h1>
                         <h3>Nuclear Discovery: Research and Development</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+                        <a href="history.php">
+                            <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -58,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-8 mx-auto p-3">
-                    <p class="index-text shadow rounded p-2">
+                    <p class="gen-text shadow rounded p-2">
                         A nuclear reactor, formerly known as an atomic pile, is a device used to initiate and control a fission nuclear chain reaction or nuclear fusion reactions.
                         Nuclear reactors are used at nuclear power plants for electricity generation and in nuclear marine propulsion.As of early 2019, the IAEA reports there are 454 nuclear power
                         reactors and 226 nuclear research reactors in operation around the world.

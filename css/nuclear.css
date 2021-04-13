@@ -1,0 +1,14 @@
+/* || GENERAL */
+
+
+
+/* || MODERATORS */
+
+.modCards {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card {
+    flex-grow: 1;
+}
