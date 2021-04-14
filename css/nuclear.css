@@ -3,13 +3,47 @@
 :root{
     --main-bg-color: #a9b8ba;
     --bg-accent-light: #cad9db;
-    --bg-accent-dark: #768a8c;
-    --gradient-01: #3d4d4f;
+    --bg-accent-green: #768a8c;
+    --gradient-dark: #3d4d4f;
     --accent-01: #c24c1d;
     --accent-02: #7a3012;
+}
 
+body {
+    background-color: var(--main-bg-color);
+}
 
+.gen-text {
+    font-family: 'Space Grotesk', sans-serif;
+}
 
+.card-title{
+    font-size: 1.5rem;
+    border: .05rem solid var(--bg-accent-light);
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 1.5rem;
+}
+
+.card-body {
+    background-color: var(--bg-accent-light);
+}
+
+.coverText h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.coverText p {
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+    border: .05rem solid var(--bg-accent-light);
 }
 
 
@@ -37,13 +71,46 @@
 .modCards {
     display: flex;
     flex-wrap: nowrap;
-    background-color: var(--bg-accent-dark);
+    background-color: var(--main-bg-color);
+    width: 80%;
+    padding-top: 8%;
+    margin: auto;
 }
 
-.card {
+.modCards.flex-row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-body {
     flex-grow: 1;
+    background-color: var(--main-bg-color);
+    padding: 4rem;
 }
 
-.modImage {
+section {
+    background-color: var(--main-bg-color);
+}
+
+section .gen-text {
+    background-color: var(--bg-accent-light);
+    position: relative;
+    top: 7vmin;
+    left: 3vmin;
+    text-align: center;
+    padding: 5%;
+    box-shadow: 0px 25px 42px rgba(0,0,0, 0.2);
+    height: fit-content;
+
+}
+
+section .modImage {
+    position: relative;
+    margin: 1.5rem;
     padding: 0px;
+}
+
+section, h3 {
+    text-transform: uppercase;
+    padding: 8%;
 }
