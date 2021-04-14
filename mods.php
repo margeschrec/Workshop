@@ -23,8 +23,8 @@
         </div>
     </div>
     <div class="modCards container-fluid gx-0">
-        <div class="text-center">
-            <div class="d-flex flex-row justify-content-center mx-4">
+        <div class="row text-center">
+            <div class="d-flex flex-row justify-content-center">
                 <!-- first card -->
                 <div class="card mx-2">
                     <div class="card-body">
@@ -71,14 +71,15 @@
         </div>
     </div>
     <!-- Moderator main content -->
-    <section>
+    <div class="container-fluid gx-0">
+        <section>
             <!-- Graphite Section -->
             <div class="row ">
                 <h3>Graphite Moderators</h3>
             </div>
             <div class="row mx-2">
-                <div class="col-lg-4 col-sm-12 modImage">
-                    <img src="img/Elektrownia_Ignalina_graphite.jpg" class="img-fluid shadow-lg">
+                <div class="col-lg-4 col-sm-12">
+                    <img src="img/Elektrownia_Ignalina_graphite.jpg" class="img-fluid shadow-lg modImage">
                 </div>
                 <div class="col-lg-6 col-sm-12 gen-text">
                     <p>By using a minimalist design that used regular (light) water for cooling and graphite for moderation, it was possible to use natural uranium for fuel (instead of the considerably more expensive enriched uranium). This allowed for an extraordinarily large and powerful reactor that was also cheap enough to be built in large numbers and simple enough to be maintained and operated by local personnel. For example, the RBMK reactors at the Ignalina Nuclear Power Plant in Lithuania were rated at 1500 MWe each, a very large size for the time and even for the early 21st century.</p>
@@ -89,12 +90,12 @@
                     <p>Reactor hall of the RBMK-1500 at Ignalina Nuclear Power Plant, Lithuania – the upper biological shield (UBS) lies several meters below the floor of the reactor hall. There are no channel covers on the fuel channels of the reactor; the control rod drives are below the colored covers.</p>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <img src="img/RBMK_reactor_from_Ignalina_ArM_graphite_02.jpg" class="img-fluid w-100">
+                    <img src="img/RBMK_reactor_from_Ignalina_ArM_graphite_02.jpg" class="img-fluid modImage">
                 </div>
             </div>
             <div class="row">
                 <!-- Graphite Accordion -->
-                <div class="col-lg-8 col-sm-12">
+                <div class="col-lg-8 col-sm-12 gen-text">
                     <div class="accordion" id="graphiteAccordion">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -140,8 +141,8 @@
                 <h3>PWR: Pressurized Water Reactors</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-12 modImage">
-                    <img src="img/Diablo_canyon_PWR.jpg" class="img-fluid">
+                <div class="col-lg-4 col-sm-12">
+                    <img src="img/Diablo_canyon_PWR.jpg" class="img-fluid modImage">
                 </div>
                 <div class="col-lg-8 col-sm-12 gen-text">
                     <p>These reactors use a pressure vessel to contain the nuclear fuel, control rods, moderator, and coolant. The hot radioactive water that leaves the pressure vessel is looped through a steam generator, which in turn heats a secondary (nonradioactive) loop of water to steam that can run turbines. They represent the majority (around 80%) of current reactors.The Diablo Canyon Power Plant is an electricity-generating nuclear power plant near Avila Beach in San Luis Obispo County, California. </p>
@@ -165,8 +166,8 @@
                 <h3>PHWR: Pressurized Heavy Water Reactors</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-12 modImage">
-                    <img src="img/CANDU_at_Qinshan_PHWR.jpg" class="img-fluid">
+                <div class="col-lg-4 col-sm-12">
+                    <img src="img/CANDU_at_Qinshan_PHWR.jpg" class="img-fluid modImage">
                 </div>
                 <div class="col-lg-8 col-sm-12 gen-text">
                     <p> PHWRs frequently use natural uranium as fuel, but sometimes also use very low enriched uranium. The heavy water coolant is kept under pressure to avoid boiling, allowing it to reach higher temperature (mostly) without forming steam bubbles, exactly as for pressurized water reactor. While heavy water is very expensive to isolate from ordinary water (often referred to as light water in contrast to heavy water), its low absorption of neutrons greatly increases the neutron economy of the reactor, avoiding the need for enriched fuel.</p>
@@ -185,7 +186,8 @@
                     <p>One complication of this approach is the need for uranium enrichment facilities, which are generally expensive to build and operate. They also present a nuclear proliferation concern; the same systems used to enrich the 235U can also be used to produce much more "pure" weapons-grade material (90% or more 235U), suitable for producing a nuclear weapon. This is not a trivial exercise by any means, but feasible enough that enrichment facilities present a significant nuclear proliferation risk.</p>
                 </div>
             </div>
-    </section>
+        </section>
+    </div>
     <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>

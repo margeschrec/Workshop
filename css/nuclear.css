@@ -30,14 +30,14 @@ body {
     background-color: var(--bg-accent-light);
 }
 
-.coverText h1, h2, h3 {
+.coverText > h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .5rem;
     font-size: 4rem;
     font-weight: 900;
-}
+} */
 
 .coverText p {
     font-size: 1.5rem;
@@ -52,8 +52,16 @@ body {
 
 .modCover {
     position: relative;
-    background-image: linear-gradient(to bottom, rgba(0,0,0), rgba(53, 54, 54, 0.4))
+    background-image: linear-gradient(to bottom, rgba(0,0,0), rgba(53, 54, 54, 0.4));
 
+}
+
+.row {
+    margin: auto;
+}
+
+.modCover.row {
+    margin: auto;
 }
 .modCover img {
     min-width: 30rem;
@@ -90,6 +98,8 @@ body {
 
 section {
     background-color: var(--main-bg-color);
+    width: 95%;
+    margin: auto;
 }
 
 section .gen-text {
@@ -98,19 +108,34 @@ section .gen-text {
     top: 7vmin;
     left: 3vmin;
     text-align: center;
-    padding: 5%;
+    padding: 4rem;
+    margin-bottom: 7rem;
     box-shadow: 0px 25px 42px rgba(0,0,0, 0.2);
     height: fit-content;
 
 }
 
-section .modImage {
-    position: relative;
-    margin: 1.5rem;
-    padding: 0px;
+#graphiteAccordion button {
+    font-family: 'Space Grotesk', sans-serif;
+    color: orangered;
 }
 
-section, h3 {
+.modImage {
+    min-width: 600px;
+    height: auto;
+    position: relative;
+    margin-bottom: 2rem;
+    box-shadow: 0px 25px 42px rgba(0,0,0, 0.4);
+}
+
+section  h3 {
+    position: relative;
     text-transform: uppercase;
     padding: 8%;
+    margin-top: 20px;
+    border: 3px solid var(--gradient-dark);
+}
+
+section .card {
+    width: ;
 }
