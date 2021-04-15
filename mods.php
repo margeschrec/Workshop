@@ -5,6 +5,7 @@
         Nuclear Power || Moderators
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
@@ -15,18 +16,16 @@
     <?php include 'header.php'; ?>
     <div class="container-fluid gx-0">
         <div class="row modCover">
-            <img src="https://media.wired.com/photos/5e1f8b7e1bba420008293b1f/master/w_2560%2Cc_limit/Science_GermanynuclearTA_GettyImages-1092370410-copy.jpg" class="img-fluid">
-            <div class="text-center coverText">
-                <h1 class="text-light">Moderators</h1>
-                <p class="text-white-50">A moderator increases the power of the reactor by causing the fast neutrons that are released from fission to lose energy and become thermal neutrons</p>
+            <div class=" coverText">
+                <h1 class="text-light ">Moderators</h1>
+                <p class="text-white-50 ">A moderator increases the power of the reactor by causing the fast neutrons that are released from fission to lose energy and become thermal neutrons</p>
             </div>
         </div>
     </div>
-    <div class="modCards container-fluid gx-0">
-        <div class="row text-center">
-            <div class="d-flex flex-row justify-content-center">
+    <div class="modCards container-fluid overflow-hidden px-4">
+        <div class="row justify-content-center overflow-hidden gx-3">
                 <!-- first card -->
-                <div class="card mx-2">
+                <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
                             <h5 class="card-title text-light">Graphite</h5>
@@ -40,7 +39,7 @@
                     </div>
                 </div>
                 <!-- second card -->
-                <div class="card mx-2">
+                <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
                             <h5 class="card-title text-light">PWD</h5>
@@ -54,7 +53,7 @@
                     </div>
                 </div>
                 <!-- third card -->
-                <div class="card mx-2">
+                <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
                             <h5 class="card-title text-light">PHWR</h5>
@@ -67,7 +66,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <!-- Moderator main content -->
@@ -137,7 +135,7 @@
                 </div>
             </div>
             <!-- Water Section -->
-            <div class="row text-center">
+            <div class="row">
                 <h3>PWR: Pressurized Water Reactors</h3>
             </div>
             <div class="row">
@@ -162,7 +160,7 @@
                 </div>
             </div>
             <!-- Heavy Water Section-->
-            <div class="row text-center PHWR">
+            <div class="row">
                 <h3>PHWR: Pressurized Heavy Water Reactors</h3>
             </div>
             <div class="row">
