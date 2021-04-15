@@ -28,7 +28,7 @@
                 <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
-                            <h5 class="card-title text-light">Graphite</h5>
+                            <h5 class="card-title">Graphite</h5>
                         </div>
                         <p class="gen-text card-text">
                             A graphite-moderated reactor is a nuclear reactor that uses carbon as a neutron moderator, which allows natural uranium to be used as nuclear fuel.
@@ -42,7 +42,7 @@
                 <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
-                            <h5 class="card-title text-light">PWD</h5>
+                            <h5 class="card-title">PWD</h5>
                         </div>
                         <p class="gen-text card-text">
                             The light-water reactor (LWR) is a type of thermal-neutron reactor that uses normal water, as opposed to heavy water, as both its coolant and neutron moderator
@@ -56,7 +56,7 @@
                 <div class="col-lg-3 col-sm-12 card mx-3 my-3 p-0">
                     <div class="card-body">
                         <div class="title">
-                            <h5 class="card-title text-light">PHWR</h5>
+                            <h5 class="card-title">PHWR</h5>
                         </div>
                         <p class="gen-text card-text">
                             A pressurized heavy-water reactor (PHWR) is a nuclear reactor that uses heavy water (deuterium oxide D2O) as its coolant and neutron moderator.
@@ -151,7 +151,7 @@
                     <p>The use of water as a moderator is an important safety feature of PWRs, as an increase in temperature may cause the water to expand, giving greater 'gaps' between the water molecules and reducing the probability of thermalization — thereby reducing the extent to which neutrons are slowed and hence reducing the reactivity in the reactor. Therefore, if reactivity increases beyond normal, the reduced moderation of neutrons will cause the chain reaction to slow down, producing less heat. This property, known as the negative temperature coefficient of reactivity, makes PWR reactors very stable. This process is referred to as 'Self-Regulating', i.e. the hotter the coolant becomes, the less reactive the plant becomes, shutting itself down slightly to compensate and vice versa. Thus the plant controls itself around a given temperature set by the position of the control rods.</p>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="img/PWR_nuclear_core.jpg" class="card-img-top img-fluid" alt="nuclear_core">
                         <div class="card-body">
                             <p class="card-text">Nuclear Core Showing Cherinkov Radiation (Blue Light)</p>
@@ -173,7 +173,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="img/heavy_water_sample.jpg" class="card-img-top img-fluid" alt="heavy_water">
                         <div class="card-body">
                             <p class="card-text">An Histprical sample of "Heavy Water"</p>
