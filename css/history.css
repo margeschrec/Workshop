@@ -1,0 +1,17 @@
+.container div {
+    border: 2px #ccc solid;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gen-text {
+    width: 600px;
+}
+
+.hist-img {
+    width: 400px;
+}
