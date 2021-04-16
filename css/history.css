@@ -1,17 +1,38 @@
-.container div {
-    border: 2px #ccc solid;
-    padding: 10px;
+:root{
+    --gen-text: 'Space Grotesk', sans-serif;
+    --main-bg-color: #a9b8ba;
+    --bg-accent-light: #cad9db;
+    --bg-accent-green: #768a8c;
+    --gradient-dark: rgba(61, 77, 79, 1);
+    --accent-01: #c24c1d;
+    --accent-02: #7a3012;
+    --bg-gradient: linear-gradient(to bottom, rgba(0,0,0), rgba(53, 54, 54, 0.4));
+    --bg-gradient-02: linear-gradient(to bottom, rgba(24, 23, 23, 0.6), rgba(169, 184, 186, 1));
 }
 
+
+body {
+    background-color: var(--main-bg-color);
+}
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.gen-text:nth-of-type(even + 0) {
+    background-color: var(--bg-accent-light);
 }
 
 .gen-text {
-    width: 600px;
+    flex: 2 1 35rem;
+    margin-top: 4rem;
+    padding: 5rem;
 }
 
 .hist-img {
-    width: 400px;
+    flex: 1 1 15rem;
+    margin-top: 4rem;
+    padding: 2rem;
 }
