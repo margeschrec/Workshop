@@ -30,6 +30,7 @@
         </div>
         <div class="hist-img">
             <img src="img/history_chicago_01.jpg" class="img-fluid">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
         </div>
         <!-- second section -->
         <div class="gen-text">
@@ -40,6 +41,7 @@
         </div>
         <div class="hist-img">
             <img src="img/history_chicago_02.jpg" class="img-fluid">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
         </div>
         <!-- third section -->
         <div class="gen-text">
@@ -47,12 +49,14 @@
         </div>
         <div class="hist-img">
             <img src="img/history_breeder_01.png" class="img-fluid">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
         </div>
         <div class="gen-text">
             <p>The design purpose of EBR-I was not to produce electricity but instead to validate nuclear physics theory that suggested that a breeder reactor should be possible. In 1953, experiments revealed the reactor was producing additional fuel during fission, thus confirming the hypothesis. On November 29, 1955, the reactor at EBR-I suffered a partial meltdown during a coolant flow test. The flow test was trying to determine the cause of unexpected reactor responses to changes in coolant flow. It was subsequently repaired for further experiments, which determined that thermal expansion of the fuel rods and the thick plates supporting the fuel rods was the cause of the unexpected reactor response</p>
         </div>
         <div class="hist-img">
             <img src="img/history_breeder_02.jpg" class="img-fluid">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
         </div>
         <div class="gen-text">
             <p>Besides generating the world's first electricity from atomic energy, EBR-I was also the world's first breeder reactor and the first to use plutonium fuel to generate electricity (see also the Clementine nuclear reactor). EBR-1's initial purpose was to prove Enrico Fermi's fuel breeding principle, a principle that showed a nuclear reactor producing more fuel atoms than consumed. Along with generating electricity, EBR-1 would also prove this principle</p>

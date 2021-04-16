@@ -24,6 +24,14 @@ body {
     margin: auto;
 }
 
+/* || index page */
+
+#carouselIndex img{
+    object-fit: cover;
+   height: 30rem;
+   width: fit-content;
+}
+
 /* Cover title */
 
 .modCover {

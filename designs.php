@@ -8,7 +8,8 @@ Nuclear Power || Designs
 </head>
 <body>
 <?php include 'header.php'; ?>
-<div class="container">
+<div class="wrapper">
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id, molestias tempore, quasi magnam incidunt praesentium voluptatem expedita ab consequuntur laudantium animi. Nesciunt sint nemo corporis tempore vel porro voluptates.</div>
 
 </div>
 <?php include 'footer.php';?>
