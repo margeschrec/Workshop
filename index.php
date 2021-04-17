@@ -72,9 +72,26 @@
                     </p>
                 </div>
             </div>
-
-            <?php include 'footer.php'; ?>
+            <div class="row">
+                <div class="col-8 mx-auto p-3">
+                    <p class="gen-text shadow rounded p-2">
+                        A nuclear reactor, formerly known as an atomic pile, is a device used to initiate and control a fission nuclear chain reaction or nuclear fusion reactions.
+                        Nuclear reactors are used at nuclear power plants for electricity generation and in nuclear marine propulsion.As of early 2019, the IAEA reports there are 454 nuclear power
+                        reactors and 226 nuclear research reactors in operation around the world.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 mx-auto p-3">
+                    <p class="gen-text shadow rounded p-2">
+                        A nuclear reactor, formerly known as an atomic pile, is a device used to initiate and control a fission nuclear chain reaction or nuclear fusion reactions.
+                        Nuclear reactors are used at nuclear power plants for electricity generation and in nuclear marine propulsion.As of early 2019, the IAEA reports there are 454 nuclear power
+                        reactors and 226 nuclear research reactors in operation around the world.
+                    </p>
+                </div>
+            </div>
         </div>
+        <?php include 'footer.php'; ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 

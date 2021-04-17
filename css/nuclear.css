@@ -34,12 +34,7 @@ body {
 }
 
 #carouselIndex .carousel-caption {
-    color: var(--gradient-dark);
-    background-color: #768a8c60;
-    /* text-transform: capitalize;
-    font-size: 10rem;
-    font-weight: 900; */
-    /* border: 10px solid var(--gradient-dark); */
+    background-color: #768a8c90;
     width: 70%;
     margin: auto;
 }
@@ -172,3 +167,21 @@ section .card-body {
 .card-img-top {
     min-width: 8rem;
 }
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--bg-accent-green);
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
