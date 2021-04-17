@@ -22,7 +22,7 @@
                 <div class="carousel-item active">
                     <img src="img/Nu_Carousel01.jpg" class="d-block w-100" alt="nuclear_moderators">
                     <div class="carousel-caption">
-                        <h1 class="display-2">Moderators</h1>
+                        <h1>Moderators</h1>
                         <h3>Nuclear Reactors: Cooling Systems</h3>
                         <a href="mods.php">
                         <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
@@ -32,7 +32,7 @@
                 <div class="carousel-item">
                     <img src="img/Nu_Carousel02.jpg" class="d-block w-100" alt="global_nuclear_plants">
                     <div class="carousel-caption">
-                        <h1 class="display-2">Designs</h1>
+                        <h1>Future Designs</h1>
                         <h3>Nuclear Power: Global Nuclear Energy Trends</h3>
                         <a href="designs.php">
                         <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
@@ -42,7 +42,7 @@
                 <div class="carousel-item">
                     <img src="img/Nu_Carousel03.jpg" class="d-block w-100" alt="nuclear_history">
                     <div class="carousel-caption">
-                        <h1 class="display-2">History</h1>
+                        <h1>History</h1>
                         <h3>Nuclear Discovery: Research and Development</h3>
                         <a href="history.php">
                             <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>

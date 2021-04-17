@@ -49,21 +49,30 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: stretch;
-    width: 100%;
-}
-
-.gen-text:nth-of-type(even + 0) {
-    background-color: var(--bg-accent-light);
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .gen-text {
     flex: 2 1 35rem;
-    margin-top: 4rem;
+    margin: 4rem;
     padding: 5rem;
+    background-color: var(--bg-accent-light);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p::first-line {
+    color: var(--accent-02);
+    font-weight: 600;
 }
 
 .hist-img {
-    flex: 1 1 15rem;
-    margin-top: 4rem;
-    padding: 2rem;
+    flex: 1 1 20rem;
+    margin: 4rem;
+}
+.hist-img img {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

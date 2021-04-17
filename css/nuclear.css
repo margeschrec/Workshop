@@ -16,6 +16,7 @@ body {
     background-color: var(--main-bg-color);
 }
 
+
 .gen-text {
     font-family: var(--gen-text);
 }
@@ -30,6 +31,22 @@ body {
     object-fit: cover;
    height: 30rem;
    width: fit-content;
+}
+
+#carouselIndex .carousel-caption {
+    color: var(--gradient-dark);
+    background-color: #768a8c60;
+    /* text-transform: capitalize;
+    font-size: 10rem;
+    font-weight: 900; */
+    /* border: 10px solid var(--gradient-dark); */
+    width: 70%;
+    margin: auto;
+}
+
+#carouselIndex, h1 {
+    font-size: 8rem;
+    text-transform: capitalize;
 }
 
 /* Cover title */
